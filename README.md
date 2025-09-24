@@ -1,6 +1,6 @@
-# 📚 Proyecto: Biblioteca Virtual con PHP y MySQL
+# Proyecto: Biblioteca Virtual con PHP y MySQL
 
-## 📌 Descripción del proyecto
+## Descripción del proyecto
 
 Este proyecto consiste en el desarrollo de una **biblioteca virtual** implementada con tecnologías web como **HTML, Bootstrap, PHP y MariaDB**. La aplicación permite a los usuarios **registrarse, iniciar sesión, buscar libros, realizar reservas** y consultar búsquedas recientes mediante cookies. Además, los administradores pueden **gestionar el catálogo de libros y autores**, controlar los préstamos y generar informes con estadísticas útiles.
 
@@ -8,21 +8,21 @@ Se ha hecho especial énfasis en la **seguridad de contraseñas**, el manejo de 
 
 ---
 
-## 🎯 Funcionalidades principales
+## Funcionalidades principales
 
-### 🧑‍💼 Invitado
+### Invitado
 - Buscar libros sin necesidad de registrarse
 - Visualizar credenciales de prueba para cliente y administrador
 - Consultar libros recientemente buscados mediante cookies
 
-### 👤 Cliente
+### Cliente
 - Registro seguro de cuenta con contraseña hasheada
 - Inicio de sesión y cierre de sesión
 - Búsqueda de libros
 - Reserva de libros (hasta **5 en total** y **3 copias por libro**)
 - Visualización del estado de sus préstamos
 
-### 🔐 Administrador (bibliotecario)
+### Administrador (bibliotecario)
 - Registro con código especial (visible en la página para pruebas)
 - Gestión completa del catálogo de libros (alta, baja, modificación)
 - Gestión de autores (crear, editar y eliminar autores)
@@ -34,7 +34,7 @@ Se ha hecho especial énfasis en la **seguridad de contraseñas**, el manejo de 
 
 ---
 
-## 🧩 Entidades principales
+## Entidades principales
 
 - **Usuario**: Cliente o administrador. Autenticación segura con roles diferenciados.
 - **Libro**: Título, autor, cantidad de ejemplares disponibles, etc.
@@ -43,7 +43,7 @@ Se ha hecho especial énfasis en la **seguridad de contraseñas**, el manejo de 
 
 ---
 
-## 🛡️ Seguridad
+## Seguridad
 
 - Contraseñas almacenadas con hashing (usando `password_hash`)
 - Validación de formularios en servidor y cliente
@@ -53,7 +53,7 @@ Se ha hecho especial énfasis en la **seguridad de contraseñas**, el manejo de 
 
 ---
 
-## 🖥️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **PHP 8.x**
 - **MariaDB / MySQL**
